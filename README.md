@@ -4,7 +4,7 @@ This script calculates the probability of a dare being executed in the "odds-on"
 
 ## Theoretical Part
 
-Formulas has been derived to calculate the probability given the range,
+Formulas have been derived to calculate the probability given the range,
 
 Even range: `p = (2*n-2)/(n*n)`
 

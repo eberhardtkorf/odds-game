@@ -1,8 +1,21 @@
 # odds-game
-Theoretical and Simulated Calculator for the 'Odds Game' commonly played among students.
 
-Give the maximum number both players of the game can say and the script will calculate the probability that the player will have to complete a dare according to the rules of the game.
+This script calculates the probability of a dare being executed in the "odds-on" game given the range of numbers both players can use.
 
-The probability is calculated both theoretically and through a simulation with 100000 permutations.
+## Theoretical Part
 
-The simulation's result converges to the theoretical probability proving that the formula to calculate the probability holds.
+Formulas has been derived to calculate the probability given the range,
+
+Even range: `p = (2*n-2)/(n*n)`
+
+Odd range: `p = (2*n-1)/(n*n)`
+
+## Simulation Part
+
+We can simulate a number of random plays of the game and calculate the probability of a dare being executed given the range.
+
+## Remarks
+
+We can see that the simulated probability converges to the theoretical probability when thousands or millions of simulations are tested, indicating that the theoritcal formulas are correct.
+
+

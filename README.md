@@ -18,4 +18,12 @@ We can simulate a number of random plays of the game and calculate the probabili
 
 We can see that the simulated probability converges to the theoretical probability when thousands or millions of simulations are tested, indicating that the theoritcal formulas are correct.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eberhardtkorf/odds-game/main/screenshots/example_1.png" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eberhardtkorf/odds-game/main/screenshots/example_2.png" />
+</p>
+
 
